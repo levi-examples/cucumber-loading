@@ -1,6 +1,6 @@
 require 'rspec-expectations'
+require 'require_all'
 
-require_relative 'url_loader'
-require_relative 'page_factory'
+require_rel '../../lib'
 
 World(PageFactory)
